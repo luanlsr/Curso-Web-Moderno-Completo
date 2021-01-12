@@ -3,5 +3,6 @@ function rand({min = 0, max = 1000}) {
     return Math.floor(valor)
 }
 console.log(rand({max: 50, min:40}));
-
+console.log(rand({min: 955}));
+console.log(rand({}));
 //const obj = {max: 50, min:40}n
